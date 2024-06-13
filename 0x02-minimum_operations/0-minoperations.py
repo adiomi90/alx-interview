@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """ This code will calculate the minimum number of operations
     needed to result in a number """
 
