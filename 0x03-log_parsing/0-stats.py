@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """ A script for parsing HTTP request logs. """
-
-
 import sys
 
 # store the count of all status codes in a dictionary
