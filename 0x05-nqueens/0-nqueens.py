@@ -5,18 +5,7 @@ import sys
 
 
 def n_q(t_arr, arr, col, i, n):
-    """_summary_
-
-    Args:
-        t_arr (_type_): _description_
-        arr (_type_): _description_
-        col (_type_): _description_
-        i (_type_): _description_
-        n (_type_): _description_
-
-    Returns:
-        _type_: _description_
-    """
+    """ N-queen problem """
     if (i > n):
         arr.append(t_arr[:])
         return arr
