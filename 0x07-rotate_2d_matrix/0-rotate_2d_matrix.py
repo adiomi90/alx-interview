@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Rotate 2D Matrix """
+""" Rotate 2D Matrix 90 degrees clockwise """
+
 
 def rotate_2d_matrix(matrix):
     """
@@ -21,7 +22,7 @@ def rotate_2d_matrix(matrix):
         #          [8, 5, 2],
         #          [9, 6, 3]]
     """
-   
+
     n = len(matrix)
     for i in range(n):
         for j in range(i):
